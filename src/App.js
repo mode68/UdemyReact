@@ -73,9 +73,7 @@ class App extends Component {
         </div>
       );
 
-      console.log("classes: ", classes);
-      
-      btnClass = classes.red;
+      btnClass = classes.Red;
     }
 
     const assignedClasses = [];
@@ -90,7 +88,7 @@ class App extends Component {
       <div className={classes.App}>
         <h1>Hi, I'm a React App</h1>
         <p className={assignedClasses.join(' ')}>This is really working!</p>
-        <button 
+        <button
           className={btnClass}
           onClick={this.togglePersonsHandler}>
             Toggle persons

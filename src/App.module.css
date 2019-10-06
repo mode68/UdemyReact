@@ -16,6 +16,7 @@
   background-color: green;
   font: inherit;
   color: white;
+  cursor: pointer;
 }
 
 .App button:hover {
