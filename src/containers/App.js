@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Person from './Person/Person';
+import Person from '../components/Persons/Person/Person';
 import classes from './App.module.css';
 
 class App extends Component {
@@ -88,9 +88,7 @@ class App extends Component {
         <p className={assignedClasses.join(' ')}>This is really working!</p>
         <button
           className={btnClass}
-          onClick={this.togglePersonsHandler}>
-            Toggle persons
-        </button>
+          onClick={this.togglePersonsHandler}>Toggle persons</button>
         {persons}
       </div>
     )
